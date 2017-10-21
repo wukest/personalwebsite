@@ -1,0 +1,129 @@
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 15s slider infinite;
+
+}
+
+
+.menu .navbar-brand {
+  height: 80px;
+}
+
+.menu .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.menu .navbar-toggle {
+  padding: 0px;
+  margin: 25px 15px 25px 0;
+}
+
+
+header {
+	width: 100%;
+	max-width: none;
+	background-color: #373B44;
+}
+
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.img1:hover{
+    border-color:#555;
+    -moz-box-shadow: 0px 0px 15px #111;
+    -webkit-box-shadow: 0px 0px 20px #111;
+}
+
+/* Imagem efeito 1 */
+div.polaroid {
+ width: 280px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ text-align: center;
+}
+
+
+/* Imagem efeito 2 */
+
+.fifth-effect img {
+   opacity:0.2;
+   transition: all 0.3s ease-in;
+}
+
+.fifth-effect .mask {
+   cursor:pointer;
+   opacity:1;
+   visibility:visible;
+   border:100px solid rgba(0,0,0,0.7);
+   box-sizing:border-box;
+   transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+}
+
+.fifth-effect:hover .mask {
+   border:0px double rgba(0,0,0,0.7);
+   opacity:0;
+   visibility:hidden;
+}
+
+.fifth-effect:hover img {
+   opacity:1;
+}
